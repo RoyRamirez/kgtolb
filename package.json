@@ -1,0 +1,29 @@
+{
+  "name": "kgtolb",
+  "version": "0.1.0",
+  "description": "Este es un convertidor de unidades, de kilogramo a libra y viceversa.",
+  "main": "dist/src/kgtolb.js",
+  "scripts": {
+    "build": "babel src/kgtolb.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoyRamirez/kgtolb.git"
+  },
+  "keywords": [
+    "conversion",
+    "kg",
+    "lb",
+    "javascript",
+    "js"
+  ],
+  "author": "Roy Ramirez <royramlo13@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
